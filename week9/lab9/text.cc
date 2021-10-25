@@ -23,6 +23,7 @@ class StringVar{
 };
 
 class Text{
+
     public:
         Text(int size);
         Text();
