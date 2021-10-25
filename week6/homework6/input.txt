@@ -1,0 +1,16 @@
+1000000
+buy bottle 100 500 1000
+check bottle
+balance
+buy cup 100 400 1100
+check cup
+balance
+sell bottle 50
+balance
+sell bottle 100
+balance
+check bottle
+buy basket 500 5000 1000
+check basket
+sell basket 100
+exit

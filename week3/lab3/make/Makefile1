@@ -1,0 +1,17 @@
+# basic Makefile format
+
+# makefile writing rule
+# <Target> : <Dependencies>
+#     <Recipe>
+
+calc : main.o adder.o multiplier.o
+	g++ -O2 main.o adder.o multiplier.o -o calc
+
+adder.o : adder.cpp
+	g++ -O2 -c adder.cpp -o adder.o
+
+multiplier.o : multiplier.cpp
+	g++ -O2 -o multiplier.o -c multiplier.cpp
+
+main.o : main.cpp
+	g++ -O2 -o main.o -c main.cpp

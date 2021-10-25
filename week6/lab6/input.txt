@@ -1,0 +1,11 @@
+ add yuseok
+ setlab yuseok 0 10
+ setlab yuseok 1 9
+ sethw yuseok 0 10
+ setprj yuseok 8
+ setexam yuseok 9
+ printscore yuseok
+ printscoredetail yuseok
+ setscoreweight 1 1 4 4
+ printscore yuseok
+ exit

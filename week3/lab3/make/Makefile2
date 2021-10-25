@@ -1,0 +1,13 @@
+# Makefile implicit rule
+
+# if %.o file doesn't exist then,
+# automatically run $(CC) -c $(CPPFLAGS) $(CFLAGS)
+# as well as %.o file, other implicit rule is predefined
+
+# in this case, automatically run
+# g++    -c -o main.o main.cpp
+# g++    -c -o adder.o adder.cpp
+# g++    -c -o multiplier.o multiplier.cpp
+
+calc : main.o adder.o multiplier.o
+	g++ -O2 main.o adder.o multiplier.o -o calc

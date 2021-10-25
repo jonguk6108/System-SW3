@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+INPUT_ERROR	ppm.h	/^    INPUT_ERROR,      \/\/Error with input file processing (ex. not P3 header, width and height not correct, ...)$/;"	e	enum:PROCESS_RESULT
+OBJS	Makefile	/^OBJS = ppm.o main.o$/;"	m
+OUTPUT_ERROR	ppm.h	/^    OUTPUT_ERROR,     \/\/Error with generationg output files$/;"	e	enum:PROCESS_RESULT
+PROCESS_RESULT	ppm.h	/^enum PROCESS_RESULT {$/;"	g
+SUCCESS	ppm.h	/^    SUCCESS,          \/\/Both input & output file processing success$/;"	e	enum:PROCESS_RESULT
+TARGET	Makefile	/^TARGET = ..\/bin\/main.out$/;"	m
+main	main.cc	/^int main(int argc, char*argv[]){$/;"	f
+process_ppm	ppm.cc	/^PROCESS_RESULT process_ppm(char *in_file_name, char *out_pbm_name, char *out_pgm_name, char *out_ppm_name) {$/;"	f

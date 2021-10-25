@@ -1,0 +1,1 @@
+100 1500 950000 100 1500 910000 985000 can't sell 985000 50 1500 can't buy not exist not exist -15000
