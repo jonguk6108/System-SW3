@@ -11,9 +11,9 @@ class Poly{
         ~Poly();
         int Get_max();
         int Get_ico(int i);
-        Poly operator + (Poly rhs);
-        Poly operator - (Poly rhs);
-        Poly operator * (Poly rhs);
+        Poly operator + (Poly &rhs);
+        Poly operator - (Poly &rhs);
+        Poly operator * (Poly &rhs);
         
 
     private:
@@ -27,8 +27,11 @@ Poly::Poly(int max_exp_, int* coefficient_) {
         coefficient[i] = coefficient_[i];
 }
 void Poly::Print_poly() {
-    for(int i = 0; i < max_exp; i++)
-        cout << coefficient[i] << " ";
+    for(int i = 0; i < max_exp; i++) {
+        if(i != 0)
+            cout << " ";
+        cout << coefficient[i];
+    }
     return;
 }
 Poly::~Poly() {
@@ -36,7 +39,7 @@ Poly::~Poly() {
 }
 int Poly::Get_max() { return max_exp; }
 int Poly::Get_ico(int i) { return coefficient[i]; }
-Poly Poly::operator + (Poly rhs) {
+Poly Poly::operator + (Poly &rhs) {
     int cmax = max_exp;
     if(cmax < rhs.Get_max())
         cmax = rhs.Get_max();
@@ -50,7 +53,7 @@ Poly Poly::operator + (Poly rhs) {
     Poly ptmp(cmax, ctmp);
     return ptmp;
 }
-Poly Poly::operator - (Poly rhs) {
+Poly Poly::operator - (Poly &rhs) {
     int cmax = max_exp;
     if(cmax < rhs.Get_max())
         cmax = rhs.Get_max();
@@ -64,7 +67,7 @@ Poly Poly::operator - (Poly rhs) {
     Poly ptmp(cmax, ctmp);
     return ptmp;
 }
-Poly Poly::operator * (Poly rhs) {
+Poly Poly::operator * (Poly &rhs) {
     int cmax = max_exp + rhs.Get_max() - 1;
     int ctmp[cmax];
     for(int i = 0; i < cmax; i++)

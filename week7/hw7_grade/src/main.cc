@@ -148,7 +148,7 @@ int main (int argc, char *argv[])
 
         if (cur_meta->is_mul)
         {
-            cout << "A * B = " << (A*B).to_string() << endl;
+//            cout << "A * B = " << (A*B).to_string() << endl;
 
             MATRIX C = A;
             C *= B;
