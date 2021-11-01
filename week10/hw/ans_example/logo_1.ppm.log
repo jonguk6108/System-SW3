@@ -1,0 +1,23 @@
+Reading ./data/logo_1.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 11010110.
+32 Convert To 01.
+48 Convert To 110011.
+49 Convert To 111.
+50 Convert To 10.
+51 Convert To 110001.
+52 Convert To 1101010.
+53 Convert To 00.
+54 Convert To 110100.
+55 Convert To 110010.
+56 Convert To 110000.
+57 Convert To 11011.
+80 Convert To 11010111.
+Decoding Process Success!
+Original Size : 5400336[bits]
+Comprssed Bitstream Size : 1712360[bits]
+Comprssion Ratio : 3.15374

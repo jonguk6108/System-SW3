@@ -1,0 +1,23 @@
+Reading ./data/character_8.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 101011110.
+32 Convert To 01.
+48 Convert To 1000.
+49 Convert To 10011.
+50 Convert To 11.
+51 Convert To 10010.
+52 Convert To 1011.
+53 Convert To 00.
+54 Convert To 10100.
+55 Convert To 10101110.
+56 Convert To 1010110.
+57 Convert To 101010.
+80 Convert To 101011111.
+Decoding Process Success!
+Original Size : 30152296[bits]
+Comprssed Bitstream Size : 9597962[bits]
+Comprssion Ratio : 3.14153
