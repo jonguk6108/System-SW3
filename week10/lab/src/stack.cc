@@ -14,23 +14,50 @@
 namespace Stack {
 
     structure::structure() {
-        //TODO : Constructor
+        top_ptr = NULL;
+        size = 0;
     }
 
     structure::~structure() {
-        //TODO : Destructor
+        node *next_node = top_ptr;
+        while(next_node != NULL) {
+            node *delete_node = next_node;
+            next_node = next_node->next;
+
+            delete delete_node;
+        }
     }
 
     void structure::push(int data) {
-        //TODO : Insert data to the stack
+        if(size == 0) {
+            node *new_node = new node;
+            new_node->data = data;
+            new_node->next = NULL;
+            top_ptr = new_node;
+        }
+        else {
+            node *new_node = new node;
+            new_node->data = data;
+            new_node->next = top_ptr;
+
+            top_ptr = new_node;
+        }
+        size++;
     }
 
     int structure::top() {
-        //TODO : Return top value
+        return top_ptr->data;
     }
 
     int structure::pop() {
-        //TODO : Return top value and remove top
+        int ret = top_ptr->data;
+        node *delete_node = top_ptr;
+        top_ptr = top_ptr->next;
+        size--;
+
+        delete delete_node;
+
+        return ret;
     }
 
     size_t structure::get_size() {return size;}

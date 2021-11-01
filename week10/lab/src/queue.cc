@@ -20,7 +20,7 @@ namespace Queue {
     }
 
     structure::~structure() {
-        node *next_node = front_prt;
+        node *next_node = front_ptr;
         while(next_node != NULL) {
             node *delete_node = next_node;
             next_node = next_node->next;
@@ -35,7 +35,7 @@ namespace Queue {
             new_node->data = data;
             new_node->next = NULL;
             back_ptr = new_node;
-            front_prt = new_node;
+            front_ptr = new_node;
         } 
         else {
             node *new_node = new node;
