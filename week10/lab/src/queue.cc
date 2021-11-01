@@ -14,23 +14,54 @@
 namespace Queue {
 
     structure::structure() {
-        //TODO : Constructor
+        front_ptr = NULL;
+        back_ptr = NULL;
+        size = 0;
     }
 
     structure::~structure() {
-        //TODO : Destructor, Must free dynamic mallocs
+        node *next_node = front_prt;
+        while(next_node != NULL) {
+            node *delete_node = next_node;
+            next_node = next_node->next;
+
+            delete delete_node;
+        }
     }
 
     void structure::push(int data) {
-        //TODO : Push data to queue
+        if(size == 0) {
+            node *new_node = new node;
+            new_node->data = data;
+            new_node->next = NULL;
+            back_ptr = new_node;
+            front_prt = new_node;
+        } 
+        else {
+            node *new_node = new node;
+            new_node->data = data;
+            new_node->next = NULL;
+
+            back_ptr->next = new_node;
+            back_ptr = new_node;
+        }
+
+        size++;
     }
 
     int structure::front() {
-        //TODO : Return front value
+        return front_ptr->data;
     }
 
     int structure::pop() {
-        //TODO : Return front value and remove front value
+        int ret = front_ptr->data;
+        node *delete_node = front_ptr;
+        front_ptr = front_ptr->next;
+        size--;
+
+        delete delete_node;
+
+        return ret;
     }
 
     size_t structure::get_size() {return size;}

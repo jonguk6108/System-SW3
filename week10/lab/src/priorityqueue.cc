@@ -14,25 +14,37 @@
 namespace PriorityQueue {
 
     structure::structure() {
-        //TODO : Constructor
+        datas.clear();
     }
 
     void structure::push(int data) {
-        //TODO : Push data to priority queue
+        datas.push_back(data);
+        sort();
     }
 
     int structure::front() {
-        //TODO : retrun front value
+        return datas.at(0);
     }
 
     int structure::pop() {
-        //TODO : return front value and remove front
+        int ret = datas.at(0);
+
+        datas.erase(datas.begin());
+        return ret;
     }
 
     size_t structure::get_size() {return datas.size();}
     bool structure::empty() {return datas.size() == 0;}
 
     void structure::sort() {
-        //TODO : Sort Data / Greater one is pop() first!
+        for(size_t i = 0; i < datas.size(); i++) {
+            for(size_t j = 0; j < datas.size()-i-1; j++) {
+                if(datas.at(j+1) > datas.at(j)) {
+                    int temp = datas.at(j);
+                    datas.at(j) = datas.at(j+1);
+                    datas.at(j+1) = temp;
+                }
+            }
+        }
     }
 }
