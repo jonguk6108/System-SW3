@@ -1,0 +1,675 @@
+Reading ./data/character_15.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 001101110.
+32 Convert To 01.
+48 Convert To 00100.
+49 Convert To 001010.
+50 Convert To 000.
+51 Convert To 001100.
+52 Convert To 00111.
+53 Convert To 1.
+54 Convert To 0010111.
+55 Convert To 0010110.
+56 Convert To 0011010.
+57 Convert To 00110110.
+80 Convert To 001101111.
+Decoding Process Success!
+Original Size : 30745416[bits]
+Comprssed Bitstream Size : 9050240[bits]
+Comprssion Ratio : 3.39719
+Reading ./data/character_4.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 001111110.
+32 Convert To 01.
+48 Convert To 00101.
+49 Convert To 001000.
+50 Convert To 000.
+51 Convert To 001001.
+52 Convert To 00110.
+53 Convert To 1.
+54 Convert To 0011101.
+55 Convert To 0011100.
+56 Convert To 00111110.
+57 Convert To 0011110.
+80 Convert To 001111111.
+Decoding Process Success!
+Original Size : 30461488[bits]
+Comprssed Bitstream Size : 9183169[bits]
+Comprssion Ratio : 3.3171
+Reading ./data/GNU_License.txt File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 001111.
+32 Convert To 000.
+34 Convert To 0111001101.
+39 Convert To 1011001100.
+40 Convert To 111001111.
+41 Convert To 100101100.
+44 Convert To 0111000.
+45 Convert To 01110010110.
+46 Convert To 1110010.
+47 Convert To 01110011001.
+48 Convert To 01110011000.
+49 Convert To 101100111.
+50 Convert To 01110010000.
+51 Convert To 0111001000101.
+52 Convert To 01110010001101.
+53 Convert To 0111001000100.
+54 Convert To 0111001011101.
+55 Convert To 01110010001100.
+56 Convert To 101100110111.
+57 Convert To 01110010011.
+58 Convert To 10110011010.
+59 Convert To 0111001010.
+60 Convert To 100101101000.
+62 Convert To 011100101111.
+65 Convert To 1011000.
+66 Convert To 111001110.
+67 Convert To 001110001.
+68 Convert To 001101010.
+69 Convert To 1001000.
+70 Convert To 10110010.
+71 Convert To 11100110.
+72 Convert To 11101110.
+73 Convert To 1001010.
+74 Convert To 0111001011100.
+75 Convert To 0111001000111.
+76 Convert To 00111001.
+77 Convert To 011100111.
+78 Convert To 00111011.
+79 Convert To 1110110.
+80 Convert To 00110100.
+81 Convert To 101100110110.
+82 Convert To 1011011.
+83 Convert To 00111010.
+84 Convert To 1001001.
+85 Convert To 001110000.
+86 Convert To 01110010010.
+87 Convert To 0011010111.
+88 Convert To 100101101001.
+89 Convert To 11101111.
+96 Convert To 10010110111.
+97 Convert To 1101.
+98 Convert To 0011011.
+99 Convert To 10011.
+100 Convert To 10111.
+101 Convert To 0010.
+102 Convert To 010010.
+103 Convert To 111000.
+104 Convert To 01111.
+105 Convert To 1000.
+106 Convert To 10010110110.
+107 Convert To 10010111.
+108 Convert To 010000.
+109 Convert To 010001.
+110 Convert To 1100.
+111 Convert To 0110.
+112 Convert To 011101.
+113 Convert To 10010110101.
+114 Convert To 1010.
+115 Convert To 1111.
+116 Convert To 0101.
+117 Convert To 001100.
+118 Convert To 1011010.
+119 Convert To 111010.
+120 Convert To 0011010110.
+121 Convert To 010011.
+Decoding Process Success!
+Original Size : 144312[bits]
+Comprssed Bitstream Size : 85009[bits]
+Comprssion Ratio : 1.69761
+Reading ./data/character_22.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 110011110.
+32 Convert To 01.
+48 Convert To 1101.
+49 Convert To 11000.
+50 Convert To 10.
+51 Convert To 1111.
+52 Convert To 1110.
+53 Convert To 00.
+54 Convert To 1100101.
+55 Convert To 1100100.
+56 Convert To 1100110.
+57 Convert To 11001110.
+80 Convert To 110011111.
+Decoding Process Success!
+Original Size : 29828224[bits]
+Comprssed Bitstream Size : 9309422[bits]
+Comprssion Ratio : 3.20409
+Reading ./data/character_13.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 110101110.
+32 Convert To 01.
+48 Convert To 1100.
+49 Convert To 11011.
+50 Convert To 10.
+51 Convert To 1111.
+52 Convert To 1110.
+53 Convert To 00.
+54 Convert To 1101001.
+55 Convert To 1101000.
+56 Convert To 1101010.
+57 Convert To 11010110.
+80 Convert To 110101111.
+Decoding Process Success!
+Original Size : 30196400[bits]
+Comprssed Bitstream Size : 9264602[bits]
+Comprssion Ratio : 3.25933
+Reading ./data/character_12.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 101101110.
+32 Convert To 01.
+48 Convert To 1001.
+49 Convert To 10000.
+50 Convert To 11.
+51 Convert To 10001.
+52 Convert To 1010.
+53 Convert To 00.
+54 Convert To 10111.
+55 Convert To 101100.
+56 Convert To 1011010.
+57 Convert To 10110110.
+80 Convert To 101101111.
+Decoding Process Success!
+Original Size : 29636608[bits]
+Comprssed Bitstream Size : 9396408[bits]
+Comprssion Ratio : 3.15404
+Reading ./data/character_8.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 101011110.
+32 Convert To 01.
+48 Convert To 1000.
+49 Convert To 10011.
+50 Convert To 11.
+51 Convert To 10010.
+52 Convert To 1011.
+53 Convert To 00.
+54 Convert To 10100.
+55 Convert To 10101110.
+56 Convert To 1010110.
+57 Convert To 101010.
+80 Convert To 101011111.
+Decoding Process Success!
+Original Size : 30152296[bits]
+Comprssed Bitstream Size : 9597962[bits]
+Comprssion Ratio : 3.14153
+Reading ./data/character_16.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 11101110.
+32 Convert To 01.
+48 Convert To 1101.
+49 Convert To 1111.
+50 Convert To 10.
+51 Convert To 11100.
+52 Convert To 11000.
+53 Convert To 00.
+54 Convert To 111010.
+55 Convert To 110010.
+56 Convert To 110011.
+57 Convert To 1110110.
+80 Convert To 11101111.
+Decoding Process Success!
+Original Size : 29749368[bits]
+Comprssed Bitstream Size : 9347555[bits]
+Comprssion Ratio : 3.18258
+Reading ./data/character_20.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 100000110.
+32 Convert To 01.
+48 Convert To 1010.
+49 Convert To 10010.
+50 Convert To 11.
+51 Convert To 10001.
+52 Convert To 1011.
+53 Convert To 00.
+54 Convert To 1000000.
+55 Convert To 10011.
+56 Convert To 100001.
+57 Convert To 10000010.
+80 Convert To 100000111.
+Decoding Process Success!
+Original Size : 28977848[bits]
+Comprssed Bitstream Size : 9514106[bits]
+Comprssion Ratio : 3.04578
+Reading ./data/character_21.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 100001110.
+32 Convert To 01.
+48 Convert To 1001.
+49 Convert To 10001.
+50 Convert To 11.
+51 Convert To 1011.
+52 Convert To 1010.
+53 Convert To 00.
+54 Convert To 1000010.
+55 Convert To 1000001.
+56 Convert To 1000000.
+57 Convert To 10000110.
+80 Convert To 100001111.
+Decoding Process Success!
+Original Size : 29263688[bits]
+Comprssed Bitstream Size : 9312487[bits]
+Comprssion Ratio : 3.14241
+Reading ./data/character_14.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 100011110.
+32 Convert To 01.
+48 Convert To 1001.
+49 Convert To 1010.
+50 Convert To 11.
+51 Convert To 10110.
+52 Convert To 10000.
+53 Convert To 00.
+54 Convert To 10111.
+55 Convert To 100010.
+56 Convert To 10001110.
+57 Convert To 1000110.
+80 Convert To 100011111.
+Decoding Process Success!
+Original Size : 29968120[bits]
+Comprssed Bitstream Size : 9903716[bits]
+Comprssion Ratio : 3.02595
+Reading ./data/logo_2.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 001111110.
+32 Convert To 01.
+48 Convert To 00111110.
+49 Convert To 00110.
+50 Convert To 000.
+51 Convert To 001011.
+52 Convert To 00100.
+53 Convert To 1.
+54 Convert To 0010101.
+55 Convert To 0010100.
+56 Convert To 0011110.
+57 Convert To 001110.
+80 Convert To 001111111.
+Decoding Process Success!
+Original Size : 34309688[bits]
+Comprssed Bitstream Size : 8532373[bits]
+Comprssion Ratio : 4.02112
+Reading ./data/test.txt File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 001.
+65 Convert To 11.
+66 Convert To 10.
+67 Convert To 01.
+68 Convert To 000.
+Decoding Process Success!
+Original Size : 64[bits]
+Comprssed Bitstream Size : 18[bits]
+Comprssion Ratio : 3.55556
+Reading ./data/character_18.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 111001110.
+32 Convert To 01.
+48 Convert To 1100.
+49 Convert To 11101.
+50 Convert To 10.
+51 Convert To 1111.
+52 Convert To 1101.
+53 Convert To 00.
+54 Convert To 1110001.
+55 Convert To 1110000.
+56 Convert To 1110010.
+57 Convert To 11100110.
+80 Convert To 111001111.
+Decoding Process Success!
+Original Size : 29846824[bits]
+Comprssed Bitstream Size : 9165363[bits]
+Comprssion Ratio : 3.25648
+Reading ./data/character_1.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 00101001110.
+32 Convert To 01.
+48 Convert To 00100.
+49 Convert To 001011.
+50 Convert To 000.
+51 Convert To 00111.
+52 Convert To 00110.
+53 Convert To 1.
+54 Convert To 00101000.
+55 Convert To 0010101.
+56 Convert To 001010010.
+57 Convert To 0010100110.
+80 Convert To 00101001111.
+Decoding Process Success!
+Original Size : 30593424[bits]
+Comprssed Bitstream Size : 8936477[bits]
+Comprssion Ratio : 3.42343
+Reading ./data/character_17.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 001101110.
+32 Convert To 01.
+48 Convert To 00100.
+49 Convert To 001010.
+50 Convert To 000.
+51 Convert To 001011.
+52 Convert To 00111.
+53 Convert To 1.
+54 Convert To 0011010.
+55 Convert To 0011001.
+56 Convert To 0011000.
+57 Convert To 00110110.
+80 Convert To 001101111.
+Decoding Process Success!
+Original Size : 30904280[bits]
+Comprssed Bitstream Size : 8960956[bits]
+Comprssion Ratio : 3.44877
+Reading ./data/character_19.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 001111110.
+32 Convert To 01.
+48 Convert To 00100.
+49 Convert To 001011.
+50 Convert To 000.
+51 Convert To 001010.
+52 Convert To 00110.
+53 Convert To 1.
+54 Convert To 0011101.
+55 Convert To 0011100.
+56 Convert To 0011110.
+57 Convert To 00111110.
+80 Convert To 001111111.
+Decoding Process Success!
+Original Size : 30755416[bits]
+Comprssed Bitstream Size : 8702429[bits]
+Comprssion Ratio : 3.53412
+Reading ./data/character_11.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 10111110.
+32 Convert To 01.
+48 Convert To 1001.
+49 Convert To 1010.
+50 Convert To 11.
+51 Convert To 100011.
+52 Convert To 100010.
+53 Convert To 00.
+54 Convert To 1011110.
+55 Convert To 10110.
+56 Convert To 101110.
+57 Convert To 10000.
+80 Convert To 10111111.
+Decoding Process Success!
+Original Size : 30234712[bits]
+Comprssed Bitstream Size : 9599039[bits]
+Comprssion Ratio : 3.14976
+Reading ./data/character_2.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 101101110.
+32 Convert To 01.
+48 Convert To 1000.
+49 Convert To 10111.
+50 Convert To 11.
+51 Convert To 1010.
+52 Convert To 1001.
+53 Convert To 00.
+54 Convert To 10110110.
+55 Convert To 1011010.
+56 Convert To 1011001.
+57 Convert To 1011000.
+80 Convert To 101101111.
+Decoding Process Success!
+Original Size : 29506928[bits]
+Comprssed Bitstream Size : 9244776[bits]
+Comprssion Ratio : 3.19174
+Reading ./data/character_10.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 111101110.
+32 Convert To 01.
+48 Convert To 1100.
+49 Convert To 11011.
+50 Convert To 10.
+51 Convert To 11010.
+52 Convert To 1110.
+53 Convert To 00.
+54 Convert To 111100.
+55 Convert To 11111.
+56 Convert To 1111010.
+57 Convert To 11110110.
+80 Convert To 111101111.
+Decoding Process Success!
+Original Size : 30169744[bits]
+Comprssed Bitstream Size : 9178070[bits]
+Comprssion Ratio : 3.28716
+Reading ./data/character_6.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 111010110.
+32 Convert To 01.
+48 Convert To 1100.
+49 Convert To 11010.
+50 Convert To 10.
+51 Convert To 11011.
+52 Convert To 1111.
+53 Convert To 00.
+54 Convert To 111011.
+55 Convert To 11100.
+56 Convert To 1110100.
+57 Convert To 11101010.
+80 Convert To 111010111.
+Decoding Process Success!
+Original Size : 30213160[bits]
+Comprssed Bitstream Size : 9210140[bits]
+Comprssion Ratio : 3.28042
+Reading ./data/logo_1.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 11010110.
+32 Convert To 01.
+48 Convert To 110011.
+49 Convert To 111.
+50 Convert To 10.
+51 Convert To 110001.
+52 Convert To 1101010.
+53 Convert To 00.
+54 Convert To 110100.
+55 Convert To 110010.
+56 Convert To 110000.
+57 Convert To 11011.
+80 Convert To 11010111.
+Decoding Process Success!
+Original Size : 5400336[bits]
+Comprssed Bitstream Size : 1712360[bits]
+Comprssion Ratio : 3.15374
+Reading ./data/character_9.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 111001110.
+32 Convert To 01.
+48 Convert To 110.
+49 Convert To 0010.
+50 Convert To 000.
+51 Convert To 11101.
+52 Convert To 1111.
+53 Convert To 10.
+54 Convert To 1110010.
+55 Convert To 111000.
+56 Convert To 0011.
+57 Convert To 11100110.
+80 Convert To 111001111.
+Decoding Process Success!
+Original Size : 29722224[bits]
+Comprssed Bitstream Size : 10401250[bits]
+Comprssion Ratio : 2.85756
+Reading ./data/character_3.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 1101001110.
+32 Convert To 01.
+48 Convert To 1100.
+49 Convert To 11011.
+50 Convert To 10.
+51 Convert To 1111.
+52 Convert To 1110.
+53 Convert To 00.
+54 Convert To 110101.
+55 Convert To 1101000.
+56 Convert To 11010010.
+57 Convert To 110100110.
+80 Convert To 1101001111.
+Decoding Process Success!
+Original Size : 30550544[bits]
+Comprssed Bitstream Size : 9317444[bits]
+Comprssion Ratio : 3.27885
+Reading ./data/character_23.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 100010110.
+32 Convert To 01.
+48 Convert To 1010.
+49 Convert To 10110.
+50 Convert To 11.
+51 Convert To 10000.
+52 Convert To 1001.
+53 Convert To 00.
+54 Convert To 10111.
+55 Convert To 1000100.
+56 Convert To 100011.
+57 Convert To 10001010.
+80 Convert To 100010111.
+Decoding Process Success!
+Original Size : 29871304[bits]
+Comprssed Bitstream Size : 9548034[bits]
+Comprssion Ratio : 3.12853
+Reading ./data/character_7.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 1010001010.
+32 Convert To 01.
+48 Convert To 1000.
+49 Convert To 10101.
+50 Convert To 11.
+51 Convert To 1011.
+52 Convert To 1001.
+53 Convert To 00.
+54 Convert To 1010000.
+55 Convert To 101001.
+56 Convert To 101000100.
+57 Convert To 10100011.
+80 Convert To 1010001011.
+Decoding Process Success!
+Original Size : 28909832[bits]
+Comprssed Bitstream Size : 9343739[bits]
+Comprssion Ratio : 3.09403
+Reading ./data/character_5.ppm File Data ...
+Generating Huffman Tree ...
+Compressing data ...
+Generating Huffman Table ...
+Decoding test ...
+Huffman Table
+10 Convert To 11101110.
+32 Convert To 01.
+48 Convert To 1100.
+49 Convert To 11010.
+50 Convert To 10.
+51 Convert To 11011.
+52 Convert To 1111.
+53 Convert To 00.
+54 Convert To 111001.
+55 Convert To 111010.
+56 Convert To 111000.
+57 Convert To 1110110.
+80 Convert To 11101111.
+Decoding Process Success!
+Original Size : 29564040[bits]
+Comprssed Bitstream Size : 9246047[bits]
+Comprssion Ratio : 3.19748

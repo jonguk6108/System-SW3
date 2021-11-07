@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
     std::cout << "Generating Huffman Table ..." << std::endl;
     std::vector<uint8_t> unique_symbols = huffman_tree->get_symbol_table();
     std::vector<std::string> encoding_table = huffman_tree->get_encoding_table();
-   
+  
     std::cout << "Decoding test ..." << std::endl;
     std::string decoding_test = huffman_tree->encode_symbols(unique_symbols);
     std::vector<uint8_t> decode_data = huffman_tree->decode_symbols(decoding_test);
