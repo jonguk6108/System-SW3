@@ -7,7 +7,7 @@
 class BaseArray {
 public:
     BaseArray(int _capacity=5) : capacity(_capacity), mem(new int[_capacity]){}
-    ~BaseArray() { delete[] mem; } //TODO: Fix this destructor
+    virtual ~BaseArray() { delete[] mem; } //TODO: Fix this destructor
 
 public:
     void insert(int _index, int _val) { mem[_index]=_val; }
@@ -15,6 +15,11 @@ public:
     int getCapacity() { return capacity; }
 
     // TODO: Fill virtual member functions
+
+    virtual void enqueue(int n){};
+    virtual int dequeue(){return -1;};
+    virtual bool isEmpty(){return false;};
+    virtual bool isFull(){return false;};
 
 private:
     int capacity;       
