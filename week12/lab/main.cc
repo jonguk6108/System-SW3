@@ -12,7 +12,7 @@ int main()
     HashTable<int> h(size);
     for (int i = 0; i < 6; i++)
         h.insertItem(key[i], Phone_number[i]);
-    //h.deleteItem(2018312727,73549732);
+    h.deleteItem(2018312727,73549732);
     h.displayHash(); 
 
     

@@ -41,7 +41,7 @@ void HashTable<T>::deleteItem(int key, T data){
 
     list<int>::iterator i;
     for(i = table[index].begin(); i != table[index].end(); i++)
-        if(*i == key)
+        if(*i == data)
             break;
     if(i != table[index].end())
         table[index].erase(i);
